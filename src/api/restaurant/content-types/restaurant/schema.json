@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "Restaurants"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "addressNumber": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "complement": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
